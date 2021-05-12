@@ -12,7 +12,8 @@ object LockObjectMain2 extends App {
 
 }
 
-object HashDigestProvider1 {
+object HashDigestProvider2 {
+  private[this] val md = MessageDigest.getInstance("SHA-1")
 
   def digest(str: String): List[Byte] =
     md.synchronized {
