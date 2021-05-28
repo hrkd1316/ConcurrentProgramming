@@ -23,7 +23,7 @@ object ExecutorServiceStudy extends App {
 /**
   * 05章初級問題
   */
-object TenThousandNamePrinter extends App {
+object TenThousandNamePrinter2 extends App {
   val es = Executors.newFixedThreadPool(10)
 
   for (i <- 1 to 10000) {
